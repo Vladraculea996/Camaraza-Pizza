@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*.json$
+
+Sitemap: https://vladraculea996.github.io/Camaraza-Pizzas/sitemap.xml
