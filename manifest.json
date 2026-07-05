@@ -1,0 +1,12 @@
+{
+  "name": "Camaraza Pizzas",
+  "short_name": "Camaraza",
+  "description": "PWA oficial de Camaraza Pizzas",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#d32f2f",
+  "orientation": "portrait",
+  "icons": []
+}
