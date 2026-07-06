@@ -574,20 +574,8 @@ const DB = (() => {
 // ============================================================
 // STATE MODULE
 // ============================================================
-const State = {
-  user:          null,  // Supabase auth user
-  profile:       null,  // perfiles row
-  products:      [],
-  categories:    [],
-  activeCat:     'all',
-  cart:          [],
-  selectedProduct: null,
-  selectedSize:    null,
-  selectedQty:     1,
-  isOnline:        navigator.onLine,
-  publicConfig:    { nombre: null, direccion: null, whatsapp: null }, // datos de contacto, visibles a todos
-};
-
+import { State } from './js/state.js';
+     
 // ============================================================
 // UI MODULE — Navigation & Screens
 // ============================================================
